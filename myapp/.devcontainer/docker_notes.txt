@@ -1,0 +1,6 @@
+# For creating the image
+docker build -f .devcontainer/Dockerfile -t dataengineeringfinal/weatherapp .
+
+# For creating container
+docker run -p 8501:8501 dataengineeringfinal/weatherapp
+
